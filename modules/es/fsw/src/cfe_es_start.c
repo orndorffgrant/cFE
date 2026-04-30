@@ -56,7 +56,8 @@ static int32 CFE_ES_MainTaskSyncDelay(uint32 AppStateId, uint32 TimeOutMilliseco
 /*
 ** Global data for the ES startup code and Runtime library
 */
-CFE_ES_Global_t CFE_ES_Global;
+#include "esp_attr.h"
+EXT_RAM_BSS_ATTR CFE_ES_Global_t CFE_ES_Global;
 
 /***************************************************************************/
 /*

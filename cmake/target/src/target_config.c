@@ -43,6 +43,10 @@
 #define CFE_CPU_NAME_VALUE "unknown"
 #endif
 
+#ifndef CFE_CPU_ID_VALUE
+#define CFE_CPU_ID_VALUE 0
+#endif
+
 #ifndef CFE_SPACECRAFT_ID_VALUE
 #define CFE_SPACECRAFT_ID_VALUE 0x42
 #endif

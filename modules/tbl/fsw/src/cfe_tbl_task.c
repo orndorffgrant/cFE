@@ -40,7 +40,8 @@
 /*
 ** Table task global data
 */
-CFE_TBL_Global_t CFE_TBL_Global;
+#include "esp_attr.h"
+EXT_RAM_BSS_ATTR CFE_TBL_Global_t CFE_TBL_Global;
 
 /*----------------------------------------------------------------
  *

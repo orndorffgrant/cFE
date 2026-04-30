@@ -41,7 +41,7 @@
 **       Not Applicable
 */
 #define CFE_PLATFORM_ES_START_TASK_PRIORITY         CFE_PLATFORM_ES_CFGVAL(START_TASK_PRIORITY)
-#define DEFAULT_CFE_PLATFORM_ES_START_TASK_PRIORITY 68
+#define DEFAULT_CFE_PLATFORM_ES_START_TASK_PRIORITY 10
 
 /**
 **  \cfeescfg Define ES Task Stack Size
@@ -279,7 +279,7 @@
 **       verified.
 */
 #define CFE_PLATFORM_ES_RAM_DISK_NUM_SECTORS         CFE_PLATFORM_ES_CFGVAL(RAM_DISK_NUM_SECTORS)
-#define DEFAULT_CFE_PLATFORM_ES_RAM_DISK_NUM_SECTORS 4096
+#define DEFAULT_CFE_PLATFORM_ES_RAM_DISK_NUM_SECTORS 128
 
 /**
 **  \cfeescfg Percentage of Ram Disk Reserved for Decompressing Apps
@@ -343,7 +343,7 @@
 **       on this configuration parameter.
 */
 #define CFE_PLATFORM_ES_USER_RESERVED_SIZE         CFE_PLATFORM_ES_CFGVAL(USER_RESERVED_SIZE)
-#define DEFAULT_CFE_PLATFORM_ES_USER_RESERVED_SIZE (1024 * 1024)
+#define DEFAULT_CFE_PLATFORM_ES_USER_RESERVED_SIZE (1 * 1024)
 
 /**
 **  \cfeescfg Define Memory Pool Alignment Size
@@ -543,7 +543,7 @@
 **       by a 64 bit time stamp.
 */
 #define CFE_PLATFORM_ES_PERF_DATA_BUFFER_SIZE         CFE_PLATFORM_ES_CFGVAL(PERF_DATA_BUFFER_SIZE)
-#define DEFAULT_CFE_PLATFORM_ES_PERF_DATA_BUFFER_SIZE 10000
+#define DEFAULT_CFE_PLATFORM_ES_PERF_DATA_BUFFER_SIZE 1025
 
 /**
 **  \cfeescfg Define Filter Mask Setting for Disabling All Performance Entries

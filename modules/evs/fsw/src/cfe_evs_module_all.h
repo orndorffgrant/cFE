@@ -38,6 +38,7 @@
 #include "cfe_perfids.h"
 
 #include "cfe_evs_core_internal.h"
+#include "cfe_es_resetdata_typedef.h"
 
 #include "cfe_evs_eventids.h" /* EVS event IDs */
 #include "cfe_evs_task.h"     /* EVS internal definitions */

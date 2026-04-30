@@ -36,9 +36,10 @@
 #include <string.h>
 
 #include "cfe_es_resetdata_typedef.h" /* Definition of CFE_ES_ResetData_t */
+#include "esp_attr.h"
 
 /* Global Data */
-CFE_EVS_Global_t CFE_EVS_Global;
+EXT_RAM_BSS_ATTR CFE_EVS_Global_t CFE_EVS_Global;
 
 /* Defines */
 #define CFE_EVS_PANIC_DELAY 500 /**< \brief Task delay before PSP panic */

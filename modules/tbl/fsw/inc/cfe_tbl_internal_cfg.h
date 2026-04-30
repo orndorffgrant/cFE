@@ -48,7 +48,7 @@
 **       Not Applicable
 */
 #define CFE_PLATFORM_TBL_START_TASK_PRIORITY         CFE_PLATFORM_TBL_CFGVAL(START_TASK_PRIORITY)
-#define DEFAULT_CFE_PLATFORM_TBL_START_TASK_PRIORITY 70
+#define DEFAULT_CFE_PLATFORM_TBL_START_TASK_PRIORITY 6
 
 /**
 **  \cfeescfg Define TBL Task Stack Size
@@ -81,7 +81,7 @@
 **       The cFE does not place a limit on the size of this parameter.
 */
 #define CFE_PLATFORM_TBL_BUF_MEMORY_BYTES         CFE_PLATFORM_TBL_CFGVAL(BUF_MEMORY_BYTES)
-#define DEFAULT_CFE_PLATFORM_TBL_BUF_MEMORY_BYTES 524288
+#define DEFAULT_CFE_PLATFORM_TBL_BUF_MEMORY_BYTES 32768
 
 /**
 **  \cfetblcfg Maximum Size Allowed for a Double Buffered Table

@@ -38,7 +38,8 @@
 /*
 ** Time task global data...
 */
-CFE_TIME_Global_t CFE_TIME_Global;
+#include "esp_attr.h"
+EXT_RAM_BSS_ATTR CFE_TIME_Global_t CFE_TIME_Global;
 
 /*----------------------------------------------------------------
  *

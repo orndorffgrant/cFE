@@ -35,9 +35,9 @@
 #include "cfe_sb_verify.h"
 
 #include <string.h>
-
 /*  Task Globals */
-CFE_SB_Global_t CFE_SB_Global;
+#include "esp_attr.h"
+EXT_RAM_BSS_ATTR CFE_SB_Global_t CFE_SB_Global;
 
 /* Local structure for file writing callbacks */
 typedef struct
